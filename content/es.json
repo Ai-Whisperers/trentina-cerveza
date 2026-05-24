@@ -19,13 +19,34 @@
     "mapsUrl": "https://maps.google.com/?q=-26.5,-54.8"
   },
   "navigation": [
-    { "href": "/", "label": "Inicio" },
-    { "href": "/cervezas", "label": "Cervezas" },
-    { "href": "/tienda", "label": "Tienda" },
-    { "href": "/chopp", "label": "Chopp" },
-    { "href": "/nosotros", "label": "Nosotros" },
-    { "href": "/galeria", "label": "Galería" },
-    { "href": "/contacto", "label": "Contacto" }
+    {
+      "href": "/",
+      "label": "Inicio"
+    },
+    {
+      "href": "/cervezas",
+      "label": "Cervezas"
+    },
+    {
+      "href": "/tienda",
+      "label": "Tienda"
+    },
+    {
+      "href": "/chopp",
+      "label": "Chopp"
+    },
+    {
+      "href": "/nosotros",
+      "label": "Nosotros"
+    },
+    {
+      "href": "/galeria",
+      "label": "Galería"
+    },
+    {
+      "href": "/contacto",
+      "label": "Contacto"
+    }
   ],
   "home": {
     "seo": {
@@ -70,21 +91,57 @@
     },
     "stats": {
       "items": [
-        { "value": "5", "label": "Estilos", "suffix": "" },
-        { "value": "12.000", "label": "Litros/mes", "suffix": "+" },
-        { "value": "20", "label": "IBU max", "suffix": "" },
-        { "value": "100%", "label": "Artesanal", "suffix": "" }
+        {
+          "value": "5",
+          "label": "Estilos",
+          "suffix": ""
+        },
+        {
+          "value": "12.000",
+          "label": "Litros/mes",
+          "suffix": "+"
+        },
+        {
+          "value": "20",
+          "label": "IBU max",
+          "suffix": ""
+        },
+        {
+          "value": "100%",
+          "label": "Artesanal",
+          "suffix": ""
+        }
       ]
     },
     "menuSection": {
       "title": "Nuestras Cervezas",
       "description": "Conocé cada uno de nuestros estilos",
       "categories": [
-        { "id": "lagers", "name": "Pilsen", "priceRange": "Gs 130.000 – 300.000/pack" },
-        { "id": "ipas", "name": "IPA", "priceRange": "Gs 400.000/pack" },
-        { "id": "ales", "name": "APA", "priceRange": "Gs 400.000/pack" },
-        { "id": "especiales", "name": "Metatron IPL", "priceRange": "Gs 380.000/pack" },
-        { "id": "stouts", "name": "Dunkel Cacao", "priceRange": "Estacional" }
+        {
+          "id": "lagers",
+          "name": "Pilsen",
+          "priceRange": "Gs 130.000 – 300.000/pack"
+        },
+        {
+          "id": "ipas",
+          "name": "IPA",
+          "priceRange": "Gs 400.000/pack"
+        },
+        {
+          "id": "ales",
+          "name": "APA",
+          "priceRange": "Gs 400.000/pack"
+        },
+        {
+          "id": "especiales",
+          "name": "Metatron IPL",
+          "priceRange": "Gs 380.000/pack"
+        },
+        {
+          "id": "stouts",
+          "name": "Dunkel Cacao",
+          "priceRange": "Estacional"
+        }
       ]
     },
     "cta": {
@@ -214,12 +271,36 @@
       "subtitle": "Momentos de felicidad Trentina"
     },
     "images": [
-      { "src": "/images/placeholder-1.jpg", "alt": "Cerveza Pilsen Trentina servida en jarra", "category": "cervezas" },
-      { "src": "/images/placeholder-2.jpg", "alt": "Variedad de cervezas Trentina", "category": "cervezas" },
-      { "src": "/images/placeholder-3.jpg", "alt": "Servicio de chopp Trentina en evento", "category": "eventos" },
-      { "src": "/images/placeholder-4.jpg", "alt": "Proceso de elaboración artesanal", "category": "fábrica" },
-      { "src": "/images/placeholder-5.jpg", "alt": "Chopp tirado de cerveza Trentina", "category": "chopp" },
-      { "src": "/images/placeholder-6.jpg", "alt": "Botellas de cerveza Trentina envasadas", "category": "cervezas" }
+      {
+        "src": "/images/placeholder-1.jpg",
+        "alt": "Cerveza Pilsen Trentina servida en jarra",
+        "category": "cervezas"
+      },
+      {
+        "src": "/images/placeholder-2.jpg",
+        "alt": "Variedad de cervezas Trentina",
+        "category": "cervezas"
+      },
+      {
+        "src": "/images/placeholder-3.jpg",
+        "alt": "Servicio de chopp Trentina en evento",
+        "category": "eventos"
+      },
+      {
+        "src": "/images/placeholder-4.jpg",
+        "alt": "Proceso de elaboracion artesanal",
+        "category": "fabrica"
+      },
+      {
+        "src": "/images/placeholder-5.jpg",
+        "alt": "Chopp tirado de cerveza Trentina",
+        "category": "chopp"
+      },
+      {
+        "src": "/images/placeholder-6.jpg",
+        "alt": "Botellas de cerveza Trentina envasadas",
+        "category": "cervezas"
+      }
     ]
   },
   "about": {
@@ -237,9 +318,18 @@
       "Hoy producimos más de 12.000 litros mensuales en cinco estilos permanentes: Pilsen, APA, IPA, Metatron IPL y Dunkel Cacao. Además, nuestro servicio de chopp profesional lleva la frescura Trentina a fiestas, eventos empresariales, bares y restaurantes de toda la zona."
     ],
     "values": [
-      { "title": "Artesanal", "description": "Cada lote elaborado con manos expertas, sin automatizar. Proceso 100% artesanal." },
-      { "title": "Pureza", "description": "Respetamos la Reinheitsgebot 1516. Ingredients seleccionados, proceso controlado." },
-      { "title": "Pasión", "description": "Hacemos lo que amamos. Cada botella lleva la dedicación de un Maestro Cervecero." }
+      {
+        "title": "Artesanal",
+        "description": "Cada lote elaborado con manos expertas, sin automatizar. Proceso 100% artesanal."
+      },
+      {
+        "title": "Pureza",
+        "description": "Respetamos la Reinheitsgebot 1516. Ingredients seleccionados, proceso controlado."
+      },
+      {
+        "title": "Pasión",
+        "description": "Hacemos lo que amamos. Cada botella lleva la dedicación de un Maestro Cervecero."
+      }
     ],
     "brewmaster": {
       "name": "Alexsandro Giordani",
@@ -257,9 +347,21 @@
       "subtitle": "Estamos acá para vos"
     },
     "info": [
-      { "icon": "mapPin", "label": "Ubicación", "value": "Alicceo Luiggi Giordani, casi calle Trento, Barrio Alejandrino III, Santa Rita, Alto Paraná" },
-      { "icon": "phone", "label": "WhatsApp", "value": "+595 983 22 44 73" },
-      { "icon": "clock", "label": "Email", "value": "trentina@trentina.com.py" }
+      {
+        "icon": "mapPin",
+        "label": "Ubicación",
+        "value": "Alicceo Luiggi Giordani, casi calle Trento, Barrio Alejandrino III, Santa Rita, Alto Paraná"
+      },
+      {
+        "icon": "phone",
+        "label": "WhatsApp",
+        "value": "+595 983 22 44 73"
+      },
+      {
+        "icon": "clock",
+        "label": "Email",
+        "value": "trentina@trentina.com.py"
+      }
     ],
     "cta": {
       "title": "Hacé tu pedido",
@@ -284,7 +386,9 @@
         "description": "20 longnecks Pilsen de 330ml cada uno. Cerveza dorada, clara y equilibrada con sabor y aroma frutal a herbal. Elaborada bajo la ley de pureza alemana.",
         "price": "Gs 130.000",
         "originalPrice": "",
-        "items": ["20 longnecks Pilsen 330ml"],
+        "items": [
+          "20 longnecks Pilsen 330ml"
+        ],
         "highlight": true
       },
       {
@@ -293,7 +397,9 @@
         "description": "24 botellas Pilsen de 500ml. La cerveza insignia de la casa con cinco tipos de maltas y lúpulos alemanes.",
         "price": "Gs 300.000",
         "originalPrice": "",
-        "items": ["24 botellas Pilsen 500ml"],
+        "items": [
+          "24 botellas Pilsen 500ml"
+        ],
         "highlight": false
       },
       {
@@ -302,7 +408,9 @@
         "description": "24 botellas APA (American Pale Ale) de 500ml. Refrescante y lupulada con carácter cítrico y frutado.",
         "price": "Gs 400.000",
         "originalPrice": "",
-        "items": ["24 botellas APA 500ml"],
+        "items": [
+          "24 botellas APA 500ml"
+        ],
         "highlight": false
       },
       {
@@ -311,7 +419,9 @@
         "description": "24 botellas IPA (American IPA) de 500ml. Amarga, lupulada con aroma cítrico, floral y resinoso.",
         "price": "Gs 400.000",
         "originalPrice": "",
-        "items": ["24 botellas IPA 500ml"],
+        "items": [
+          "24 botellas IPA 500ml"
+        ],
         "highlight": false
       },
       {
@@ -320,7 +430,9 @@
         "description": "24 botellas Metatron (India Pale Lager) de 500ml. Final seco, carácter floral y especiado. Versátil y equilibrada.",
         "price": "Gs 380.000",
         "originalPrice": "",
-        "items": ["24 botellas Metatron IPL 500ml"],
+        "items": [
+          "24 botellas Metatron IPL 500ml"
+        ],
         "highlight": false
       }
     ]
@@ -339,16 +451,48 @@
       "description": "Contamos con grandes equipos de servicio de chopp. Atendemos fiestas, eventos empresariales, eventos particulares para fin de semana, e instalación de equipos en bares, restaurantes, pizzerías, churrasquerías y pubs."
     },
     "beersOnTap": [
-      { "name": "Pilsen Trentina", "description": "Lager dorada y equilibrada, la clásica de la casa.", "ABV": "5%", "IBU": "15" },
-      { "name": "APA Trentina", "description": "Pale Ale refrescante con carácter cítrico y frutado.", "ABV": "5%", "IBU": "30" },
-      { "name": "IPA Trentina", "description": "IPA lupulada con aroma cítrico y resinoso.", "ABV": "6%", "IBU": "50" },
-      { "name": "Metatron IPL", "description": "India Pale Lager con final seco y notas florales.", "ABV": "5.1%", "IBU": "20" }
+      {
+        "name": "Pilsen Trentina",
+        "description": "Lager dorada y equilibrada, la clásica de la casa.",
+        "ABV": "5%",
+        "IBU": "15"
+      },
+      {
+        "name": "APA Trentina",
+        "description": "Pale Ale refrescante con carácter cítrico y frutado.",
+        "ABV": "5%",
+        "IBU": "30"
+      },
+      {
+        "name": "IPA Trentina",
+        "description": "IPA lupulada con aroma cítrico y resinoso.",
+        "ABV": "6%",
+        "IBU": "50"
+      },
+      {
+        "name": "Metatron IPL",
+        "description": "India Pale Lager con final seco y notas florales.",
+        "ABV": "5.1%",
+        "IBU": "20"
+      }
     ],
     "services": [
-      { "type": "Fiestas", "description": "Servicio completo de chopp para fiestas particulares y celebraciones." },
-      { "type": "Eventos empresariales", "description": "Chopp profesional para eventos corporativos y reuniones de empresa." },
-      { "type": "Eventos particulares", "description": "Alquiler de equipos para fin de semana con instalación incluida." },
-      { "type": "Instalación en locales", "description": "Equipos permanentes en bares, restaurantes, pizzerías, churrasquerías y pubs." }
+      {
+        "type": "Fiestas",
+        "description": "Servicio completo de chopp para fiestas particulares y celebraciones."
+      },
+      {
+        "type": "Eventos empresariales",
+        "description": "Chopp profesional para eventos corporativos y reuniones de empresa."
+      },
+      {
+        "type": "Eventos particulares",
+        "description": "Alquiler de equipos para fin de semana con instalación incluida."
+      },
+      {
+        "type": "Instalación en locales",
+        "description": "Equipos permanentes en bares, restaurantes, pizzerías, churrasquerías y pubs."
+      }
     ],
     "cta": {
       "title": "¿Querés chopp para tu evento?",
@@ -362,14 +506,35 @@
       "title": "Pedidos — Cerveza Trentina",
       "description": "Armá tu pedido de cervezas Trentina y envialo por WhatsApp. Packs, botellas sueltas y más."
     },
-    "hero": { "title": "Hacé tu pedido", "subtitle": "Elegí tus cervezas y envialo por WhatsApp" },
+    "hero": {
+      "title": "Hacé tu pedido",
+      "subtitle": "Elegí tus cervezas y envialo por WhatsApp"
+    },
     "categories": [
-      { "id": "lagers", "name": "Pilsen" },
-      { "id": "ales", "name": "APA" },
-      { "id": "ipas", "name": "IPA" },
-      { "id": "especiales", "name": "Metatron" },
-      { "id": "stouts", "name": "Dunkel" },
-      { "id": "packs", "name": "Packs" }
+      {
+        "id": "lagers",
+        "name": "Pilsen"
+      },
+      {
+        "id": "ales",
+        "name": "APA"
+      },
+      {
+        "id": "ipas",
+        "name": "IPA"
+      },
+      {
+        "id": "especiales",
+        "name": "Metatron"
+      },
+      {
+        "id": "stouts",
+        "name": "Dunkel"
+      },
+      {
+        "id": "packs",
+        "name": "Packs"
+      }
     ],
     "cta": {
       "title": "Confirmá tu pedido",
@@ -384,19 +549,39 @@
       "nameLabel": "Tu nombre (opcional)",
       "namePlaceholder": "Ej: Juan Pérez"
     },
-    "search": { "placeholder": "Buscar cerveza..." }
+    "search": {
+      "placeholder": "Buscar cerveza..."
+    }
   },
   "footer": {
     "copyright": "© 2026 Cerveza Trentina. Todos los derechos reservados.",
     "poweredBy": "Ai-Whisperers",
     "poweredByUrl": "https://paragu-ai.com",
     "links": [
-      { "label": "Inicio", "href": "/" },
-      { "label": "Cervezas", "href": "/cervezas" },
-      { "label": "Tienda", "href": "/tienda" },
-      { "label": "Chopp", "href": "/chopp" },
-      { "label": "Nosotros", "href": "/nosotros" },
-      { "label": "Contacto", "href": "/contacto" }
+      {
+        "label": "Inicio",
+        "href": "/"
+      },
+      {
+        "label": "Cervezas",
+        "href": "/cervezas"
+      },
+      {
+        "label": "Tienda",
+        "href": "/tienda"
+      },
+      {
+        "label": "Chopp",
+        "href": "/chopp"
+      },
+      {
+        "label": "Nosotros",
+        "href": "/nosotros"
+      },
+      {
+        "label": "Contacto",
+        "href": "/contacto"
+      }
     ]
   }
 }
