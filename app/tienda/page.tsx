@@ -76,7 +76,7 @@ export default function TiendaPage() {
                   {/* Pack Image */}
                   <div className="aspect-[16/9] relative">
                     <Image
-                      src={pack.id === "pack-1-longneck" ? "/images/gallery/gallery-1.jpg" : pack.id === "pack-2-pilsen" ? "/images/gallery/gallery-6.jpg" : pack.id === "pack-3-apa" ? "/images/gallery/gallery-5.jpg" : pack.id === "pack-4-ipa" ? "/images/gallery/gallery-5.jpg" : "/images/gallery/gallery-4.jpg"}
+                      src={pack.id === "pack-1-longneck" ? "/images/gallery/gallery-1.jpg" : pack.id === "pack-2-pilsen" ? "/images/gallery/gallery-6.jpg" : pack.id === "pack-3-apa" ? "/images/gallery/gallery-5.jpg" : pack.id === "pack-4-ipa" ? "/images/gallery/gallery-2.jpg" : "/images/gallery/gallery-4.jpg"}
                       alt={pack.name}
                       fill
                       className="object-cover"

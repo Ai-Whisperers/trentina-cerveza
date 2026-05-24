@@ -22,7 +22,7 @@ export default function AboutPage() {
             src="/images/brewery-exterior.jpg"
             alt="Cerveza Trentina — Santa Rita, Alto Paraná"
             fill
-            className="object-cover opacity-20"
+            className="object-cover opacity-40"
             priority
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-background)] via-[var(--color-background)]/80 to-[var(--color-background)]" />

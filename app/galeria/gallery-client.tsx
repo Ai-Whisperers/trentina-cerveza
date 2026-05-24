@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 interface GalleryImage {
   src: string;
@@ -57,11 +58,12 @@ export default function GalleryClient({
                 onClick={() => setSelected(img)}
                 className="group w-full overflow-hidden rounded-xl border border-[var(--color-border)] hover:border-gold/40 transition-all"
               >
-                <img
+                <Image
                   src={img.src}
                   alt={img.alt}
-                  className="w-full object-cover aspect-[4/3] group-hover:scale-105 transition-transform duration-500"
-                  loading="lazy"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  sizes="(max-width: 768px) 50vw, 33vw"
                 />
               </button>
             </div>

@@ -65,7 +65,7 @@
     },
     "features": {
       "title": "Lo que nos define",
-      "subtitle": "Tradición cervecera con ingredients seleccionados y elaboración artesanal",
+      "subtitle": "Tradición cervecera con ingredientes seleccionados y elaboración artesanal",
       "items": [
         {
           "icon": "beer",
@@ -191,7 +191,7 @@
                 "description": "Elaborada con cinco tipos de maltas de punta combinadas con dos variedades de lúpulos alemanes. Aspecto dorado, claro, con sabor y aroma frutal a herbal. Delicada sequedad y ligero toque picante al final del trago.",
                 "ABV": "5%",
                 "IBU": "15",
-                "price": "Consultar",
+                "price": "Gs 130.000/pack 20x330ml",
                 "maridaje": "Carnes blancas y quesos suaves",
                 "sizes": "330ml (longneck) · 500ml · 1L"
               }
@@ -252,7 +252,7 @@
                 "description": "Munich Dunkel con color rubí profundo, robusta y suave. Notas intensas de café y cacao medio amargo con un delicado dulzor al final del trago. Una experiencia sensorial completa.",
                 "ABV": "5%",
                 "IBU": "20",
-                "price": "Consultar",
+                "price": "Gs 350.000/pack 12x500ml",
                 "maridaje": "Chocolates medio amargo, tiramisú, postres con cacao"
               }
             ]

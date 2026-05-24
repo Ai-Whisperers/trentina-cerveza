@@ -212,9 +212,10 @@ export default function Footer() {
             href={footer.poweredByUrl || "#"}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-[var(--color-accent)] transition-colors"
+            className="text-[10px] text-[var(--color-text-muted)]/40 hover:text-[var(--color-text-muted)]/60 transition-colors"
+            title="Hecho por Ai-Whisperers"
           >
-            Powered by {footer.poweredBy || "Ai-Whisperers"}
+            ⚙ Ai-Whisperers
           </a>
         </div>
       </div>
