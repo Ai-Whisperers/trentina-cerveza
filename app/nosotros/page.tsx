@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Metadata } from "next";
 import content from "@/content/es.json";
 
@@ -14,10 +15,20 @@ export default function AboutPage() {
   const a = c.about;
   return (
     <>
-      {/* Hero */}
+      {/* Hero with brewery exterior */}
       <section className="pt-28 pb-16 bg-[var(--color-background)] relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/brewery-exterior.jpg"
+            alt="Cerveza Trentina — Santa Rita, Alto Paraná"
+            fill
+            className="object-cover opacity-20"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-background)] via-[var(--color-background)]/80 to-[var(--color-background)]" />
+        </div>
         <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-gold to-transparent" />
-        <div className="container-page text-center">
+        <div className="container-page text-center relative z-10">
           <h1 className="text-4xl md:text-5xl font-[var(--font-heading)] font-bold text-[var(--color-text)] mb-4">
             {a.hero.title}
           </h1>
@@ -44,21 +55,14 @@ export default function AboutPage() {
           <div className="rounded-xl bg-[var(--color-surface-alt)] border border-gold/30 overflow-hidden">
             <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-gold to-transparent relative" />
             <div className="p-8 md:p-10 text-center">
-              {/* Brewmaster Avatar Placeholder */}
-              <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gold/10 border-2 border-gold/30 flex items-center justify-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="36"
-                  height="36"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  className="text-gold"
-                >
-                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                  <circle cx="12" cy="7" r="4" />
-                </svg>
+              {/* Brewmaster Photo */}
+              <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-2 border-gold/40 relative">
+                <Image
+                  src="/images/team/team-1.jpg"
+                  alt={a.brewmaster.name}
+                  fill
+                  className="object-cover"
+                />
               </div>
 
               <h2 className="text-2xl md:text-3xl font-[var(--font-heading)] font-bold text-[var(--color-text)] mb-1">

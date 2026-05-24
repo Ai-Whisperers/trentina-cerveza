@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Metadata } from "next";
 import content from "@/content/es.json";
 
@@ -72,29 +73,15 @@ export default function TiendaPage() {
                     </span>
                   )}
 
-                  {/* Image Placeholder */}
-                  <div className="aspect-[16/9] bg-[var(--color-surface-alt)] flex items-center justify-center relative">
-                    <div className="text-center">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="48"
-                        height="48"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="1.5"
-                        className="text-gold/40 mx-auto mb-2"
-                      >
-                        <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" />
-                        <path d="M12 6v6l4 2" />
-                      </svg>
-                      <span className="text-xs text-[var(--color-text-muted)]">
-                        {pack.name}
-                      </span>
-                    </div>
-                    {pack.highlight && (
-                      <div className="absolute inset-0 border-2 border-gold/30 rounded-[inherit] pointer-events-none" />
-                    )}
+                  {/* Pack Image */}
+                  <div className="aspect-[16/9] relative">
+                    <Image
+                      src={pack.id === "pack-1-longneck" ? "/images/gallery/gallery-1.jpg" : pack.id === "pack-2-pilsen" ? "/images/gallery/gallery-6.jpg" : pack.id === "pack-3-apa" ? "/images/gallery/gallery-5.jpg" : pack.id === "pack-4-ipa" ? "/images/gallery/gallery-5.jpg" : "/images/gallery/gallery-4.jpg"}
+                      alt={pack.name}
+                      fill
+                      className="object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
                   </div>
 
                   <div className="p-5">

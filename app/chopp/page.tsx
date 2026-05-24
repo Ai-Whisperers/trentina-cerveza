@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Metadata } from "next";
 import content from "@/content/es.json";
 
@@ -65,10 +66,20 @@ export default function ChoppPage() {
   const ch = c.chopp;
   return (
     <>
-      {/* Hero */}
+      {/* Hero with beer taps image */}
       <section className="pt-28 pb-16 bg-[var(--color-background)] relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/beer-taps-craft.jpg"
+            alt="Chopp Trentina — Servicio profesional de chopp"
+            fill
+            className="object-cover opacity-20"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-background)] via-[var(--color-background)]/80 to-[var(--color-background)]" />
+        </div>
         <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-gold to-transparent" />
-        <div className="container-page text-center">
+        <div className="container-page text-center relative z-10">
           <h1 className="text-4xl md:text-5xl font-[var(--font-heading)] font-bold text-[var(--color-text)] mb-4">
             {ch.hero.title}
           </h1>

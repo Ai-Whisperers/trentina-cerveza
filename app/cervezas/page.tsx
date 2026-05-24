@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Metadata } from "next";
 import content from "@/content/es.json";
 import WeeklySpecial from "@/components/weekly-special";
@@ -14,10 +15,20 @@ export const metadata: Metadata = {
 export default function CervezasPage() {
   return (
     <>
-      {/* Hero */}
+      {/* Hero with beer glass image */}
       <section className="pt-28 pb-16 bg-[var(--color-background)] relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/beer-glass-craft.jpg"
+            alt="Cerveza Trentina — Cerveza artesanal"
+            fill
+            className="object-cover opacity-20"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-background)] via-[var(--color-background)]/80 to-[var(--color-background)]" />
+        </div>
         <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-gold to-transparent" />
-        <div className="container-page text-center">
+        <div className="container-page text-center relative z-10">
           <span className="text-xs uppercase tracking-[0.3em] text-gold mb-4 block">
             Cerveza artesanal
           </span>
