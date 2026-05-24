@@ -2,57 +2,40 @@
   "site": {
     "name": "Cerveza Trentina",
     "shortName": "Trentina",
-    "description": "Cerveza artesanal paraguaya — tradición cervecera en cada botella",
+    "description": "Cerveza artesanal paraguaya — elaborada en Santa Rita, Alto Paraná con tradición y pasión",
     "url": "https://trentina.paragu-ai.com",
-    "phone": "+595 983 224473",
+    "phone": "+595 983 22 44 73",
     "whatsapp": "595983224473",
-    "email": "info@trentina.com.py",
-    "address": "Av. Mariscal López 1234, San Lorenzo, Paraguay",
-    "addressShort": "Av. Mariscal López, San Lorenzo",
-    "hours": "Lun–Sáb 17:00–23:00, Dom 18:00–22:00",
-    "instagram": "",
-    "facebook": "",
-    "ogImage": "/images/og.jpg"
+    "email": "trentina@trentina.com.py",
+    "address": "Alicceo Luiggi Giordani, casi calle Trento, Barrio Alejandrino III, Santa Rita, Alto Paraná",
+    "addressShort": "Santa Rita, Alto Paraná",
+    "hours": "Consultar al WhatsApp",
+    "instagram": "https://instagram.com/cervezatrentina",
+    "facebook": "https://facebook.com/cervezatrentina",
+    "ogImage": "/images/og.jpg",
+    "brewmaster": "Alexsandro Giordani",
+    "brewmasterTitle": "Sommelier de Cerveza y Maestro Cervecero",
+    "location": "Santa Rita, Alto Paraná, Paraguay",
+    "mapsUrl": "https://maps.google.com/?q=-26.5,-54.8"
   },
   "navigation": [
-    {
-      "href": "/",
-      "label": "Inicio"
-    },
-    {
-      "href": "/cervezas",
-      "label": "Cervezas"
-    },
-    {
-      "href": "/tienda",
-      "label": "Tienda"
-    },
-    {
-      "href": "/chopp",
-      "label": "Chopp"
-    },
-    {
-      "href": "/nosotros",
-      "label": "Nosotros"
-    },
-    {
-      "href": "/galeria",
-      "label": "Galería"
-    },
-    {
-      "href": "/contacto",
-      "label": "Contacto"
-    }
+    { "href": "/", "label": "Inicio" },
+    { "href": "/cervezas", "label": "Cervezas" },
+    { "href": "/tienda", "label": "Tienda" },
+    { "href": "/chopp", "label": "Chopp" },
+    { "href": "/nosotros", "label": "Nosotros" },
+    { "href": "/galeria", "label": "Galería" },
+    { "href": "/contacto", "label": "Contacto" }
   ],
   "home": {
     "seo": {
-      "title": "Cerveza Trentina — Cerveza artesanal paraguaya en San Lorenzo",
-      "description": "Descubrí Cerveza Trentina. Cerveza artesanal paraguaya: Lagers, IPAs, Stouts y más. Chopp tirado, packs y delivery en San Lorenzo."
+      "title": "Cerveza Trentina — Cerveza artesanal paraguaya | Santa Rita, Alto Paraná",
+      "description": "Cerveza artesanal paraguaya elaborada en Santa Rita. Pilsen, APA, IPA, Metatron IPL y Dunkel Cacao. Servicio de chopp para eventos. Pedí tu pack por WhatsApp."
     },
     "hero": {
       "eyebrow": "Cerveza Trentina",
-      "headline": "Cerveza artesanal paraguaya",
-      "subheadline": "Descubrí la tradición cervecera de Paraguay. Lagers, IPAs, stouts y más — todo hecho con pasión.",
+      "headline": "Cerveza artesanal con identidad paraguaya",
+      "subheadline": "Elaborada en Santa Rita, Alto Paraná por el Maestro Cervecero Alexsandro Giordani. Pilsen, APA, IPA, Metatron y Dunkel Cacao — cada una con carácter propio.",
       "ctaPrimaryText": "Ver Cervezas",
       "ctaPrimaryHref": "/cervezas",
       "ctaSecondaryText": "Pedir por WhatsApp",
@@ -60,106 +43,80 @@
       "bgImage": "/images/hero-bg.jpg"
     },
     "features": {
-      "title": "Nuestra cerveza",
-      "subtitle": "Hecha con los mejores ingredientes, pensada para cada momento",
+      "title": "Lo que nos define",
+      "subtitle": "Tradición cervecera con ingredients seleccionados y elaboración artesanal",
       "items": [
         {
           "icon": "beer",
-          "title": "Cervezas Artesanales",
-          "description": "Elaboración propia con ingredientes seleccionados. Cada lote es único."
+          "title": "Ley de Pureza Alemana",
+          "description": "Nuestra Pilsen es elaborada rigurosamente bajo la Reinheitsgebot 1516 con cinco tipos de maltas y lúpulos alemanes."
         },
         {
           "icon": "list",
-          "title": "Variedad de Estilos",
-          "description": "Lagers, IPAs, stouts, ales y especiales. Siempre algo nuevo para descubrir."
+          "title": "5 Estilos Permanentes",
+          "description": "Pilsen, APA, IPA, Metatron IPL y Dunkel Cacao. Cada uno con personalidad y balance únicos."
         },
         {
           "icon": "glassTulip",
-          "title": "Chopp Tirado",
-          "description": "Disfrutá nuestras birras bien tiradas en el local. Frescura garantizada."
+          "title": "Chopp para Eventos",
+          "description": "Servicio de chopp profesional para fiestas, eventos empresariales y locales. Barriles de 20 litros."
         },
         {
           "icon": "truck",
-          "title": "Delivery Domicilio",
-          "description": "Pedí tus packs favoritos desde casa. Llegamos a todo San Lorenzo."
+          "title": "Packs a Domicilio",
+          "description": "Pedí tus packs por WhatsApp. Longnecks, botellas 500ml y packs mix de todos los estilos."
         }
+      ]
+    },
+    "stats": {
+      "items": [
+        { "value": "5", "label": "Estilos", "suffix": "" },
+        { "value": "12.000", "label": "Litros/mes", "suffix": "+" },
+        { "value": "20", "label": "IBU max", "suffix": "" },
+        { "value": "100%", "label": "Artesanal", "suffix": "" }
       ]
     },
     "menuSection": {
       "title": "Nuestras Cervezas",
-      "description": "Explorá nuestra variedad de estilos cerveceros",
+      "description": "Conocé cada uno de nuestros estilos",
       "categories": [
-        {
-          "id": "lagers",
-          "name": "Lagers",
-          "priceRange": "Gs 15.000 – 20.000"
-        },
-        {
-          "id": "ipas",
-          "name": "IPAs",
-          "priceRange": "Gs 18.000 – 25.000"
-        },
-        {
-          "id": "stouts",
-          "name": "Stouts / Porter",
-          "priceRange": "Gs 18.000 – 28.000"
-        },
-        {
-          "id": "ales",
-          "name": "Ales",
-          "priceRange": "Gs 15.000 – 20.000"
-        },
-        {
-          "id": "especiales",
-          "name": "Especiales",
-          "priceRange": "Gs 20.000 – 30.000"
-        }
+        { "id": "lagers", "name": "Pilsen", "priceRange": "Gs 130.000 – 300.000/pack" },
+        { "id": "ipas", "name": "IPA", "priceRange": "Gs 400.000/pack" },
+        { "id": "ales", "name": "APA", "priceRange": "Gs 400.000/pack" },
+        { "id": "especiales", "name": "Metatron IPL", "priceRange": "Gs 380.000/pack" },
+        { "id": "stouts", "name": "Dunkel Cacao", "priceRange": "Estacional" }
       ]
     },
-    "hours": {
-      "title": "Horarios",
-      "schedule": [
-        {
-          "day": "Lunes a Sábado",
-          "hours": "17:00 – 23:00"
-        },
-        {
-          "day": "Domingo",
-          "hours": "18:00 – 22:00"
-        }
-      ],
-      "note": "Consultános por horarios especiales al WhatsApp"
-    },
     "cta": {
-      "title": "¿Listo para disfrutar una buena cerveza?",
-      "subtitle": "Pedí por WhatsApp o visitá nuestro local",
+      "title": "¿Querés probar nuestras cervezas?",
+      "subtitle": "Escribinos al WhatsApp y armamos tu pedido",
       "buttonText": "Pedir Ahora",
       "buttonHref": "https://wa.me/595983224473"
     },
     "weeklySpecial": {
-      "title": "Pack de la Semana",
-      "subtitle": "Ahorrá con nuestro pack promocional — stock limitado",
+      "title": "Pack Promocional",
+      "subtitle": "Ahorrá con nuestros packs — stock limitado",
       "badge": "Oferta",
       "item": {
-        "name": "Pack Trentina 6",
-        "description": "6 botellas de 500 ml: 2 Munich Helles, 2 American IPA, 1 Milk Stout, 1 Honey Ale. Ideal para compartir.",
-        "price": "Gs 105.000",
-        "originalPrice": "Gs 130.000",
+        "name": "Pack 1 — Longneck Pilsen",
+        "description": "20 longnecks Pilsen de 330ml cada uno. La cerveza dorada, clara y equilibrada con sabor frutal herbal.",
+        "price": "Gs 130.000",
+        "originalPrice": "",
         "category": "Packs"
       },
       "ctaText": "Pedir este Pack",
-      "ctaHref": "https://wa.me/595983224473?text=Hola!%20Quiero%20pedir%20el%20Pack%20Trentina%206",
-      "validDays": "Válido hasta agotar stock"
+      "ctaHref": "https://wa.me/595983224473?text=Hola!%20Quiero%20pedir%20el%20Pack%201%20Longneck%20Pilsen",
+      "validDays": "Sujeto a disponibilidad"
     }
   },
   "menu": {
     "seo": {
-      "title": "Cervezas — Cerveza Trentina",
-      "description": "Conocé todas nuestras cervezas artesanales: Lagers, IPAs, Stouts, Ales y Especiales. ABV, IBU y maridaje para cada estilo."
+      "title": "Cervezas — Cerveza Trentina | Pilsen, APA, IPA, Metatron, Dunkel",
+      "description": "Conocé todas nuestras cervezas artesanales: Pilsen, APA, IPA, Metatron IPL y Dunkel Cacao. Datos de ABV, IBU y maridaje."
     },
     "intro": {
       "title": "Nuestras Cervezas",
-      "subtitle": "Explorá todos nuestros estilos"
+      "subtitle": "Cada estilo elaborado con dedicación artesanal"
     },
     "categories": [
       {
@@ -169,156 +126,77 @@
         "subcategories": [
           {
             "id": "lagers",
-            "name": "Lagers",
-            "description": "Cervezas de fermentación baja, refrescantes y equilibradas",
+            "name": "Pilsen",
+            "description": "Lager dorada, clara, limpia y equilibrada — elaborada bajo la ley de pureza alemana Reinheitsgebot 1516",
             "items": [
               {
-                "name": "Munich Helles",
-                "description": "Lager clara de origen alemán. Cuerpo suave, amargor delicado y final limpio. Notas a pan y miel.",
-                "ABV": "4.8%",
-                "IBU": "18",
-                "price": "Gs 15.000",
-                "maridaje": "Tabla de quesos suaves, ensaladas, pollo a la parrilla"
-              },
-              {
-                "name": "Vienna Lager",
-                "description": "Lager ámbar de cuerpo medio. Maltosidad tostada con final seco. Notas a caramelo y galleta.",
-                "ABV": "5.2%",
-                "IBU": "22",
-                "price": "Gs 17.000",
-                "maridaje": "Carnes rojas, empanadas de carne, chorizo parrillero"
-              },
-              {
-                "name": "Schwarzbier",
-                "description": "Lager oscura alemana. Cuerpo ligero a medio con notas a chocolate amargo y café. Sorprendentemente refrescante.",
-                "ABV": "5.0%",
-                "IBU": "25",
-                "price": "Gs 18.000",
-                "maridaje": "Carnes ahumadas, estofados, chocolate amargo"
-              }
-            ]
-          },
-          {
-            "id": "ipas",
-            "name": "IPAs",
-            "description": "Cervezas lupuladas con carácter, aroma intenso y amargor equilibrado",
-            "items": [
-              {
-                "name": "American IPA",
-                "description": "IPA clásica con lúpulos americanos. Aroma cítrico y resinoso. Amargor pronunciado pero balanceado.",
-                "ABV": "6.5%",
-                "IBU": "55",
-                "price": "Gs 20.000",
-                "maridaje": "Hamburguesas, costillas BBQ, comida picante, tacos"
-              },
-              {
-                "name": "Hazy IPA",
-                "description": "IPA brumosa al estilo New England. Jugosa, con notas a maracuyá, mango y pomelo. Bajo amargor, mucho sabor.",
-                "ABV": "6.8%",
-                "IBU": "35",
-                "price": "Gs 22.000",
-                "maridaje": "Ceviche, sushi, ensaladas frutales, pollo teriyaki"
-              },
-              {
-                "name": "Double IPA",
-                "description": "Doble IPA potente con lúpulo generoso. Cuerpo completo, aroma explosivo a frutas tropicales y cítricos.",
-                "ABV": "8.5%",
-                "IBU": "75",
-                "price": "Gs 25.000",
-                "maridaje": "Quesos azules, carnes especiadas, platos ahumados"
-              }
-            ]
-          },
-          {
-            "id": "stouts",
-            "name": "Stouts / Porter",
-            "description": "Cervezas oscuras y robustas con notas a café, chocolate y tostados",
-            "items": [
-              {
-                "name": "Milk Stout",
-                "description": "Stout cremosa con lactosa. Cuerpo sedoso, notas a chocolate con leche, café suave y vainilla.",
-                "ABV": "5.5%",
-                "IBU": "20",
-                "price": "Gs 18.000",
-                "maridaje": "Postres de chocolate, brownies, helado de vainilla"
-              },
-              {
-                "name": "Oatmeal Stout",
-                "description": "Stout avena, cuerpo completo y aterciopelado. Sabores a café tostado, chocolate oscuro y avena.",
-                "ABV": "5.8%",
-                "IBU": "30",
-                "price": "Gs 20.000",
-                "maridaje": "Ostras, carnes asadas, pastel de carne, chocolates"
-              },
-              {
-                "name": "Imperial Stout",
-                "description": "Stout robusta de alta graduación. Notas intensas a café espresso, chocolate amargo, ciruelas y licor.",
-                "ABV": "10.0%",
-                "IBU": "60",
-                "price": "Gs 28.000",
-                "maridaje": "Quesos maduros, postres intensos, tablas de fiambres"
+                "name": "Pilsen Trentina",
+                "description": "Elaborada con cinco tipos de maltas de punta combinadas con dos variedades de lúpulos alemanes. Aspecto dorado, claro, con sabor y aroma frutal a herbal. Delicada sequedad y ligero toque picante al final del trago.",
+                "ABV": "5%",
+                "IBU": "15",
+                "price": "Consultar",
+                "maridaje": "Carnes blancas y quesos suaves",
+                "sizes": "330ml (longneck) · 500ml · 1L"
               }
             ]
           },
           {
             "id": "ales",
-            "name": "Ales",
-            "description": "Cervezas de fermentación alta, afrutadas y con personalidad",
+            "name": "APA — American Pale Ale",
+            "description": "Refrescante y lupulada con presencia de malta",
             "items": [
               {
-                "name": "Belgian Witbier",
-                "description": "Cerveza de trigo estilo belga. Refrescante, con notas a naranja, cilantro y especias. Turbia y ligera.",
-                "ABV": "4.8%",
-                "IBU": "15",
-                "price": "Gs 16.000",
-                "maridaje": "Mariscos, ensaladas cítricas, ceviche, frutas"
-              },
+                "name": "APA Trentina",
+                "description": "American Pale Ale con aroma a lúpulo moderado a fuerte, carácter cítrico y frutado. Color dorado pálido a ámbar profundo. Equilibrada y fácil de tomar.",
+                "ABV": "5%",
+                "IBU": "30",
+                "price": "Gs 400.000/pack 24x500ml",
+                "maridaje": "Comidas condimentadas y picantes"
+              }
+            ]
+          },
+          {
+            "id": "ipas",
+            "name": "IPA — India Pale Ale",
+            "description": "Decididamente amarga, lupulada y moderadamente fuerte",
+            "items": [
               {
-                "name": "Blonde Ale",
-                "description": "Ale clara y equilibrada. Cuerpo ligero, maltosidad suave y final limpio. Fácil de tomar.",
-                "ABV": "5.0%",
-                "IBU": "20",
-                "price": "Gs 15.000",
-                "maridaje": "Pescados, pollo, pastas con salsa blanca, picadas"
-              },
-              {
-                "name": "Irish Red",
-                "description": "Ale roja irlandesa. Malta tostada con notas a caramelo y un toque de mantequilla. Final seco y suave.",
-                "ABV": "5.2%",
-                "IBU": "22",
-                "price": "Gs 17.000",
-                "maridaje": "Carnes al horno, guisos, salchichas, cheddar"
+                "name": "IPA Trentina",
+                "description": "American IPA con prominente aroma cítrico, floral, resinoso a pino y frutal derivado de lúpulos americanos. Color de dorado medio a cobre rojizo. Amarga con carácter.",
+                "ABV": "6%",
+                "IBU": "50",
+                "price": "Gs 400.000/pack 24x500ml",
+                "maridaje": "Comidas condimentadas y picantes"
               }
             ]
           },
           {
             "id": "especiales",
-            "name": "Especiales",
-            "description": "Ediciones limitadas con ingredientes únicos y sabores sorprendentes",
+            "name": "Metatron IPL",
+            "description": "India Pale Lager — la familia Lager con alma de IPA",
             "items": [
               {
-                "name": "Honey Ale",
-                "description": "Ale dorada endulzada con miel de Paraguay. Aroma floral, cuerpo ligero y final dulce natural.",
-                "ABV": "5.5%",
-                "IBU": "18",
-                "price": "Gs 20.000",
-                "maridaje": "Queso brie, frutas frescas, ensaladas con vinagreta de miel"
-              },
+                "name": "Metatron Trentina",
+                "description": "India Pale Lager (IPL) con final seco y bien atenuado. Carácter a grano neutro con ligeras notas a pan y galleta. Sabores a lúpulo medio, con carácter floral, especiado o herbal. Equilibrada y versátil.",
+                "ABV": "5.1%",
+                "IBU": "20",
+                "price": "Gs 380.000/pack 24x500ml",
+                "maridaje": "Carnes asadas, tabla de quesos, picadas"
+              }
+            ]
+          },
+          {
+            "id": "stouts",
+            "name": "Dunkel Cacao",
+            "description": "Munich Dunkel con notas intensas de café y cacao",
+            "items": [
               {
-                "name": "Coffee Porter",
-                "description": "Porter con café paraguayo de especialidad. Notas intensas a espresso, chocolate amargo y vainilla.",
-                "ABV": "6.0%",
-                "IBU": "28",
-                "price": "Gs 22.000",
-                "maridaje": "Tiramisú, brownies, helado de café, quesos semicurados"
-              },
-              {
-                "name": "Frutos Rojos Ale",
-                "description": "Ale afrutada con frambuesas y frutillas. Acidez equilibrada, color rubí intenso y final refrescante.",
-                "ABV": "5.2%",
-                "IBU": "12",
-                "price": "Gs 22.000",
-                "maridaje": "Ensaladas con frutos rojos, postres de chocolate blanco, helados"
+                "name": "Dunkel Cacao Trentina",
+                "description": "Munich Dunkel con color rubí profundo, robusta y suave. Notas intensas de café y cacao medio amargo con un delicado dulzor al final del trago. Una experiencia sensorial completa.",
+                "ABV": "5%",
+                "IBU": "20",
+                "price": "Consultar",
+                "maridaje": "Chocolates medio amargo, tiramisú, postres con cacao"
               }
             ]
           }
@@ -329,112 +207,59 @@
   "gallery": {
     "seo": {
       "title": "Galería — Cerveza Trentina",
-      "description": "Fotos de nuestras cervezas, el local y el chopp tirado en San Lorenzo."
+      "description": "Fotos de nuestras cervezas, el proceso de elaboración y eventos con chopp Trentina."
     },
     "hero": {
       "title": "Galería",
-      "subtitle": "Mirá nuestras cervezas y el ambiente"
+      "subtitle": "Momentos de felicidad Trentina"
     },
     "images": [
-      {
-        "src": "/images/placeholder-1.jpg",
-        "alt": "Cerveza Munich Helles servida en jarra",
-        "category": "cervezas",
-        "width": 800,
-        "height": 600
-      },
-      {
-        "src": "/images/placeholder-2.jpg",
-        "alt": "Variedad de cervezas Trentina en mesa de madera",
-        "category": "cervezas",
-        "width": 800,
-        "height": 600
-      },
-      {
-        "src": "/images/placeholder-3.jpg",
-        "alt": "Interior del local Trentina con barra de chopp",
-        "category": "local",
-        "width": 800,
-        "height": 600
-      },
-      {
-        "src": "/images/placeholder-4.jpg",
-        "alt": "Equipo de elaboración de cerveza artesanal",
-        "category": "cervezas",
-        "width": 800,
-        "height": 600
-      },
-      {
-        "src": "/images/placeholder-5.jpg",
-        "alt": "Chopp tirado de cerveza rubia",
-        "category": "chopp",
-        "width": 800,
-        "height": 600
-      },
-      {
-        "src": "/images/placeholder-6.jpg",
-        "alt": "Botellas de cerveza Trentina envasadas",
-        "category": "cervezas",
-        "width": 800,
-        "height": 600
-      }
+      { "src": "/images/placeholder-1.jpg", "alt": "Cerveza Pilsen Trentina servida en jarra", "category": "cervezas" },
+      { "src": "/images/placeholder-2.jpg", "alt": "Variedad de cervezas Trentina", "category": "cervezas" },
+      { "src": "/images/placeholder-3.jpg", "alt": "Servicio de chopp Trentina en evento", "category": "eventos" },
+      { "src": "/images/placeholder-4.jpg", "alt": "Proceso de elaboración artesanal", "category": "fábrica" },
+      { "src": "/images/placeholder-5.jpg", "alt": "Chopp tirado de cerveza Trentina", "category": "chopp" },
+      { "src": "/images/placeholder-6.jpg", "alt": "Botellas de cerveza Trentina envasadas", "category": "cervezas" }
     ]
   },
   "about": {
     "seo": {
-      "title": "Nosotros — Cerveza Trentina",
-      "description": "Conocé la historia de Cerveza Trentina. Tradición cervecera familiar en San Lorenzo, Paraguay."
+      "title": "Nosotros — Cerveza Trentina | Alexsandro Giordani, Maestro Cervecero",
+      "description": "Conocé la historia de Cerveza Trentina. Elaborada en Santa Rita, Alto Paraná por Alexsandro Giordani, Sommelier de Cerveza y Maestro Cervecero."
     },
     "hero": {
-      "title": "Sobre Trentina",
-      "subtitle": "Pasión por la cerveza artesanal",
-      "image": "/images/brewery-interior.jpg"
+      "title": "Hacemos lo que amamos",
+      "subtitle": "Tradición cervecera artesanal en Santa Rita, Alto Paraná"
     },
     "story": [
-      "Cerveza Trentina nace de la pasión de Don Roberto Trentini, inmigrante italiano que llegó a Paraguay con dos maletas y un sueño: elaborar la mejor cerveza del país. Inspirado en las recetas familiares de la Toscana, adaptó sus conocimientos a los ingredientes locales, creando un estilo único que combina la tradición europea con el alma paraguaya.",
-      "Desde sus primeros batch en una cocina casera en San Lorenzo, Trentina creció hasta convertirse en un referente de la cerveza artesanal paraguaya. Hoy, la tercera generación de la familia Trentini continúa el legado, elaborando cada lote con los mismos estándares de calidad que Don Roberto estableció hace décadas.",
-      "Usamos solo ingredientes de primera calidad: maltas importadas, lúpulos seleccionados, levaduras de origen belga y agua purificada paraguaya. Cada estilo es elaborado con dedicación artesanal, respetando los tiempos de fermentación y maduración que cada cerveza merece."
+      "Cerveza Trentina nace en Santa Rita, Alto Paraná, de la pasión y el conocimiento de Alexsandro Giordani — Sommelier de Cerveza y Maestro Cervecero. Con dedicación artesanal y un compromiso inquebrantable con la calidad, cada lote se elabora respetando los tiempos de fermentación y maduración que cada estilo merece.",
+      "Nuestra Pilsen, la insignia de la casa, es elaborada rigurosamente bajo la ley de pureza alemana Reinheitsgebot 1516, combinando cinco tipos de maltas de punta con dos variedades de lúpulos alemanes. Este respeto por la tradición cervecera europea, fusionado con ingredientes y el carácter paraguayo, es lo que define cada una de nuestras cervezas.",
+      "Hoy producimos más de 12.000 litros mensuales en cinco estilos permanentes: Pilsen, APA, IPA, Metatron IPL y Dunkel Cacao. Además, nuestro servicio de chopp profesional lleva la frescura Trentina a fiestas, eventos empresariales, bares y restaurantes de toda la zona."
     ],
     "values": [
-      {
-        "title": "Tradición",
-        "description": "Recetas familiares transmitidas por generaciones, honrando el legado de Don Roberto Trentini."
-      },
-      {
-        "title": "Calidad",
-        "description": "Ingredientes seleccionados y procesos controlados para garantizar la mejor cerveza en cada botella."
-      },
-      {
-        "title": "Pasión",
-        "description": "Amor por el arte cervecero. Cada lote se elabora con dedicación y orgullo."
-      }
-    ]
+      { "title": "Artesanal", "description": "Cada lote elaborado con manos expertas, sin automatizar. Proceso 100% artesanal." },
+      { "title": "Pureza", "description": "Respetamos la Reinheitsgebot 1516. Ingredients seleccionados, proceso controlado." },
+      { "title": "Pasión", "description": "Hacemos lo que amamos. Cada botella lleva la dedicación de un Maestro Cervecero." }
+    ],
+    "brewmaster": {
+      "name": "Alexsandro Giordani",
+      "title": "Sommelier de Cerveza y Maestro Cervecero",
+      "description": "Con años de experiencia y formación especializada, Alexsandro lidera la elaboración de cada estilo Trentina con rigor técnico y creatividad artesanal."
+    }
   },
   "contact": {
     "seo": {
       "title": "Contacto — Cerveza Trentina",
-      "description": "Contactanos por WhatsApp o visitanos en Av. Mariscal López, San Lorenzo."
+      "description": "Contactanos por WhatsApp al +595 983 22 44 73 o escribinos a trentina@trentina.com.py. Santa Rita, Alto Paraná."
     },
     "hero": {
       "title": "Contacto",
       "subtitle": "Estamos acá para vos"
     },
     "info": [
-      {
-        "icon": "mapPin",
-        "label": "Dirección",
-        "value": "Av. Mariscal López 1234, San Lorenzo, Paraguay"
-      },
-      {
-        "icon": "phone",
-        "label": "Teléfono",
-        "value": "+595 983 224473"
-      },
-      {
-        "icon": "clock",
-        "label": "Horarios",
-        "value": "Lun–Sáb 17:00–23:00, Dom 18:00–22:00"
-      }
+      { "icon": "mapPin", "label": "Ubicación", "value": "Alicceo Luiggi Giordani, casi calle Trento, Barrio Alejandrino III, Santa Rita, Alto Paraná" },
+      { "icon": "phone", "label": "WhatsApp", "value": "+595 983 22 44 73" },
+      { "icon": "clock", "label": "Email", "value": "trentina@trentina.com.py" }
     ],
     "cta": {
       "title": "Hacé tu pedido",
@@ -445,140 +270,89 @@
   },
   "tienda": {
     "seo": {
-      "title": "Tienda — Cerveza Trentina",
-      "description": "Comprá packs de cerveza artesanal Trentina. Pack Trentina 6, Pack Lagers, Pack IPAs, Pack Stouts y Pack Degustación."
+      "title": "Tienda — Cerveza Trentina | Packs de cerveza artesanal",
+      "description": "Comprá packs de cerveza artesanal Trentina. Pack Longneck Pilsen, Pack Pilsen 500ml, Pack APA, Pack IPA, Pack Metatron. Pedí por WhatsApp."
     },
     "hero": {
       "title": "Tienda",
-      "subtitle": "Elegí tu pack favorito y recibilo en casa"
+      "subtitle": "Elegí tu pack favorito y pedilo por WhatsApp"
     },
     "packs": [
       {
-        "id": "pack-trentina-6",
-        "name": "Pack Trentina 6",
-        "description": "6 botellas de 500 ml con selección variada: 2 Munich Helles, 2 American IPA, 1 Milk Stout y 1 Honey Ale. Ideal para compartir o para quienes quieren probar un poco de todo.",
-        "price": "Gs 105.000",
-        "originalPrice": "Gs 130.000",
-        "items": [
-          "Munich Helles 500ml x2",
-          "American IPA 500ml x2",
-          "Milk Stout 500ml x1",
-          "Honey Ale 500ml x1"
-        ]
-      },
-      {
-        "id": "pack-lagers",
-        "name": "Pack Lagers",
-        "description": "6 botellas de 500 ml dedicadas a los amantes de las lagers: 2 Munich Helles, 2 Vienna Lager y 2 Schwarzbier. Frescura y equilibrio.",
-        "price": "Gs 100.000",
-        "originalPrice": "Gs 120.000",
-        "items": [
-          "Munich Helles 500ml x2",
-          "Vienna Lager 500ml x2",
-          "Schwarzbier 500ml x2"
-        ]
-      },
-      {
-        "id": "pack-ipas",
-        "name": "Pack IPAs",
-        "description": "6 botellas de 500 ml para los lupuloadictos: 2 American IPA, 2 Hazy IPA y 2 Double IPA. Amargor y aroma en su máxima expresión.",
+        "id": "pack-1-longneck",
+        "name": "Pack 1 — Longneck Pilsen",
+        "description": "20 longnecks Pilsen de 330ml cada uno. Cerveza dorada, clara y equilibrada con sabor y aroma frutal a herbal. Elaborada bajo la ley de pureza alemana.",
         "price": "Gs 130.000",
-        "originalPrice": "Gs 155.000",
-        "items": [
-          "American IPA 500ml x2",
-          "Hazy IPA 500ml x2",
-          "Double IPA 500ml x2"
-        ]
+        "originalPrice": "",
+        "items": ["20 longnecks Pilsen 330ml"],
+        "highlight": true
       },
       {
-        "id": "pack-stouts",
-        "name": "Pack Stouts",
-        "description": "6 botellas de 500 ml para los amantes de lo oscuro: 2 Milk Stout, 2 Oatmeal Stout y 2 Imperial Stout. Café, chocolate y carácter.",
-        "price": "Gs 135.000",
-        "originalPrice": "Gs 165.000",
-        "items": [
-          "Milk Stout 500ml x2",
-          "Oatmeal Stout 500ml x2",
-          "Imperial Stout 500ml x2"
-        ]
+        "id": "pack-2-pilsen",
+        "name": "Pack 2 — Pilsen 500ml",
+        "description": "24 botellas Pilsen de 500ml. La cerveza insignia de la casa con cinco tipos de maltas y lúpulos alemanes.",
+        "price": "Gs 300.000",
+        "originalPrice": "",
+        "items": ["24 botellas Pilsen 500ml"],
+        "highlight": false
       },
       {
-        "id": "pack-degustacion",
-        "name": "Pack Degustación",
-        "description": "12 botellas de 330 ml con un ejemplar de cada estilo Trentina. Perfecto para conocer toda nuestra línea completa de cervezas.",
-        "price": "Gs 180.000",
-        "originalPrice": "Gs 220.000",
-        "items": [
-          "Munich Helles 330ml x1",
-          "Vienna Lager 330ml x1",
-          "Schwarzbier 330ml x1",
-          "American IPA 330ml x1",
-          "Hazy IPA 330ml x1",
-          "Double IPA 330ml x1",
-          "Milk Stout 330ml x1",
-          "Oatmeal Stout 330ml x1",
-          "Imperial Stout 330ml x1",
-          "Belgian Witbier 330ml x1",
-          "Blonde Ale 330ml x1",
-          "Irish Red 330ml x1"
-        ]
+        "id": "pack-3-apa",
+        "name": "Pack 3 — APA",
+        "description": "24 botellas APA (American Pale Ale) de 500ml. Refrescante y lupulada con carácter cítrico y frutado.",
+        "price": "Gs 400.000",
+        "originalPrice": "",
+        "items": ["24 botellas APA 500ml"],
+        "highlight": false
+      },
+      {
+        "id": "pack-4-ipa",
+        "name": "Pack 4 — IPA",
+        "description": "24 botellas IPA (American IPA) de 500ml. Amarga, lupulada con aroma cítrico, floral y resinoso.",
+        "price": "Gs 400.000",
+        "originalPrice": "",
+        "items": ["24 botellas IPA 500ml"],
+        "highlight": false
+      },
+      {
+        "id": "pack-5-metatron",
+        "name": "Pack 5 — Metatron IPL",
+        "description": "24 botellas Metatron (India Pale Lager) de 500ml. Final seco, carácter floral y especiado. Versátil y equilibrada.",
+        "price": "Gs 380.000",
+        "originalPrice": "",
+        "items": ["24 botellas Metatron IPL 500ml"],
+        "highlight": false
       }
     ]
   },
   "chopp": {
     "seo": {
-      "title": "Chopp Tirado — Cerveza Trentina",
-      "description": "Disfrutá nuestro chopp tirado en el local. Munich Helles, American IPA y Milk Stout. Frescura garantizada."
+      "title": "Chopp Tirado — Cerveza Trentina | Servicio de chopp para eventos",
+      "description": "Servicio de chopp profesional para fiestas, eventos empresariales y locales. Pilsen, APA, IPA y Metatron. Instalación incluida."
     },
     "hero": {
-      "title": "Chopp Tirado",
-      "subtitle": "Frescura que se siente en cada sorbo"
+      "title": "Servicio de Chopp",
+      "subtitle": "Frescura Trentina para tu evento o local"
     },
     "intro": {
-      "title": "Servicio de Chopp",
-      "description": "Vení a disfrutar de nuestras cervezas bien tiradas en el local. Contamos con sistema de chopp profesional que mantiene la temperatura y carbonatación perfectas. También ofrecemos servicio de chopp para eventos y fiestas."
+      "title": "Chopp Profesional",
+      "description": "Contamos con grandes equipos de servicio de chopp. Atendemos fiestas, eventos empresariales, eventos particulares para fin de semana, e instalación de equipos en bares, restaurantes, pizzerías, churrasquerías y pubs."
     },
     "beersOnTap": [
-      {
-        "name": "Munich Helles",
-        "description": "Lager clara y refrescante. La favorita para empezar la noche.",
-        "ABV": "4.8%",
-        "IBU": "18"
-      },
-      {
-        "name": "American IPA",
-        "description": "IPA lupulada con carácter cítrico. Para los que buscan amargor.",
-        "ABV": "6.5%",
-        "IBU": "55"
-      },
-      {
-        "name": "Milk Stout",
-        "description": "Stout cremosa con notas a chocolate. Ideal para los que prefieren lo oscuro.",
-        "ABV": "5.5%",
-        "IBU": "20"
-      }
+      { "name": "Pilsen Trentina", "description": "Lager dorada y equilibrada, la clásica de la casa.", "ABV": "5%", "IBU": "15" },
+      { "name": "APA Trentina", "description": "Pale Ale refrescante con carácter cítrico y frutado.", "ABV": "5%", "IBU": "30" },
+      { "name": "IPA Trentina", "description": "IPA lupulada con aroma cítrico y resinoso.", "ABV": "6%", "IBU": "50" },
+      { "name": "Metatron IPL", "description": "India Pale Lager con final seco y notas florales.", "ABV": "5.1%", "IBU": "20" }
     ],
-    "prices": {
-      "chopp400ml": "Gs 15.000",
-      "chopp500ml": "Gs 18.000",
-      "chopp1L": "Gs 30.000",
-      "picada": "Gs 25.000"
-    },
-    "equipmentRental": {
-      "title": "Alquiler de Equipo",
-      "description": "¿Tenés un evento? Alquilamos nuestro sistema de chopp portátil con barril de 20 litros. Incluye enfriador, grifo y vasos descartables.",
-      "price": "Gs 350.000",
-      "includes": [
-        "Barril de 20 litros (a elección)",
-        "Enfriador portátil",
-        "Grifo y manguera",
-        "100 vasos descartables",
-        "Depósito de garantía reembolsable: Gs 200.000"
-      ]
-    },
+    "services": [
+      { "type": "Fiestas", "description": "Servicio completo de chopp para fiestas particulares y celebraciones." },
+      { "type": "Eventos empresariales", "description": "Chopp profesional para eventos corporativos y reuniones de empresa." },
+      { "type": "Eventos particulares", "description": "Alquiler de equipos para fin de semana con instalación incluida." },
+      { "type": "Instalación en locales", "description": "Equipos permanentes en bares, restaurantes, pizzerías, churrasquerías y pubs." }
+    ],
     "cta": {
       "title": "¿Querés chopp para tu evento?",
-      "subtitle": "Consultános disponibilidad y armamos el servicio a medida",
+      "subtitle": "Consultanos disponibilidad y armamos el servicio a medida",
       "buttonText": "Consultar por WhatsApp",
       "buttonHref": "https://wa.me/595983224473?text=Hola!%20Quiero%20consultar%20sobre%20el%20servicio%20de%20chopp%20para%20un%20evento"
     }
@@ -588,91 +362,41 @@
       "title": "Pedidos — Cerveza Trentina",
       "description": "Armá tu pedido de cervezas Trentina y envialo por WhatsApp. Packs, botellas sueltas y más."
     },
-    "hero": {
-      "title": "Hacé tu pedido",
-      "subtitle": "Elegí tus cervezas, agregalas al carrito y envialo por WhatsApp"
-    },
+    "hero": { "title": "Hacé tu pedido", "subtitle": "Elegí tus cervezas y envialo por WhatsApp" },
     "categories": [
-      {
-        "id": "lagers",
-        "name": "Lagers"
-      },
-      {
-        "id": "ipas",
-        "name": "IPAs"
-      },
-      {
-        "id": "stouts",
-        "name": "Stouts"
-      },
-      {
-        "id": "ales",
-        "name": "Ales"
-      },
-      {
-        "id": "especiales",
-        "name": "Especiales"
-      },
-      {
-        "id": "packs",
-        "name": "Packs"
-      }
+      { "id": "lagers", "name": "Pilsen" },
+      { "id": "ales", "name": "APA" },
+      { "id": "ipas", "name": "IPA" },
+      { "id": "especiales", "name": "Metatron" },
+      { "id": "stouts", "name": "Dunkel" },
+      { "id": "packs", "name": "Packs" }
     ],
     "cta": {
       "title": "Confirmá tu pedido",
-      "subtitle": "Revisá tu carrito y envialo por WhatsApp para confirmar",
+      "subtitle": "Revisá tu carrito y envialo por WhatsApp",
       "buttonText": "Enviar pedido por WhatsApp",
-      "emptyText": "Tu carrito está vacío — agregá productos de la tienda",
-      "deliveryLocal": "Retiro en local",
-      "deliveryAddress": "Delivery",
-      "paymentCash": "Efectivo",
-      "paymentTransfer": "Transferencia",
-      "observationPlaceholder": "Ej: Sin helar, sin empaque, etc.",
-      "addressPlaceholder": "Ej: Av. Mariscal López 1234",
+      "emptyText": "Tu carrito está vacío",
       "detailsTitle": "Detalles del pedido",
       "deliveryLabel": "Modalidad",
       "paymentLabel": "Pago",
       "observationLabel": "Observaciones",
+      "observationPlaceholder": "Ej: Sin helar, etc.",
       "nameLabel": "Tu nombre (opcional)",
       "namePlaceholder": "Ej: Juan Pérez"
     },
-    "search": {
-      "placeholder": "Buscar cerveza..."
-    }
+    "search": { "placeholder": "Buscar cerveza..." }
   },
   "footer": {
     "copyright": "© 2026 Cerveza Trentina. Todos los derechos reservados.",
     "poweredBy": "Ai-Whisperers",
     "poweredByUrl": "https://paragu-ai.com",
     "links": [
-      {
-        "label": "Inicio",
-        "href": "/"
-      },
-      {
-        "label": "Cervezas",
-        "href": "/cervezas"
-      },
-      {
-        "label": "Tienda",
-        "href": "/tienda"
-      },
-      {
-        "label": "Chopp",
-        "href": "/chopp"
-      },
-      {
-        "label": "Galería",
-        "href": "/galeria"
-      },
-      {
-        "label": "Nosotros",
-        "href": "/nosotros"
-      },
-      {
-        "label": "Contacto",
-        "href": "/contacto"
-      }
+      { "label": "Inicio", "href": "/" },
+      { "label": "Cervezas", "href": "/cervezas" },
+      { "label": "Tienda", "href": "/tienda" },
+      { "label": "Chopp", "href": "/chopp" },
+      { "label": "Nosotros", "href": "/nosotros" },
+      { "label": "Contacto", "href": "/contacto" }
     ]
   }
 }

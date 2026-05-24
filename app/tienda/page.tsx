@@ -49,20 +49,31 @@ export default function TiendaPage() {
         </div>
       </section>
 
-      {/* Packs grid */}
+      {/* Packs Grid */}
       <section className="section-padding bg-[var(--color-surface)]">
         <div className="container-page">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {t.packs.map((pack: any) => {
-              const waText = `Hola!%20Quiero%20pedir%20el%20${encodeURIComponent(pack.name)}%20(Gs%20${encodeURIComponent(pack.price)})`;
+              const waText = `Hola!%20Quiero%20pedir%20el%20${encodeURIComponent(pack.name)}%20(Gs%20${encodeURIComponent(String(pack.price).replace(/[^0-9.]/g, ""))})`;
               const waHref = `https://wa.me/${site.whatsapp}?text=${waText}`;
               return (
                 <div
                   key={pack.id}
-                  className="rounded-xl bg-[var(--color-background)] border border-[var(--color-border)] overflow-hidden hover:border-gold/40 transition-all"
+                  className={`rounded-xl bg-[var(--color-background)] border overflow-hidden transition-all relative ${
+                    pack.highlight
+                      ? "border-gold hover:shadow-[0_0_20px_rgba(212,164,76,0.15)]"
+                      : "border-[var(--color-border)] hover:border-gold/40"
+                  }`}
                 >
-                  {/* Image placeholder */}
-                  <div className="aspect-[16/9] bg-[var(--color-surface-alt)] flex items-center justify-center">
+                  {/* Popular Badge */}
+                  {pack.highlight && (
+                    <span className="absolute top-3 right-3 z-10 inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-gold text-[var(--color-background)] uppercase tracking-wider">
+                      Popular
+                    </span>
+                  )}
+
+                  {/* Image Placeholder */}
+                  <div className="aspect-[16/9] bg-[var(--color-surface-alt)] flex items-center justify-center relative">
                     <div className="text-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -81,6 +92,9 @@ export default function TiendaPage() {
                         {pack.name}
                       </span>
                     </div>
+                    {pack.highlight && (
+                      <div className="absolute inset-0 border-2 border-gold/30 rounded-[inherit] pointer-events-none" />
+                    )}
                   </div>
 
                   <div className="p-5">
@@ -95,23 +109,24 @@ export default function TiendaPage() {
                           </span>
                         )}
                       </div>
-                      <span className="text-xl font-bold text-gold whitespace-nowrap">
+                      <span className="text-2xl font-bold text-gold whitespace-nowrap">
                         {pack.price}
                       </span>
                     </div>
-                    <p className="text-sm text-[var(--color-text-light)] mb-4">
+
+                    <p className="text-sm text-[var(--color-text-light)] mb-4 leading-relaxed">
                       {pack.description}
                     </p>
 
-                    {/* Items list */}
+                    {/* Items List */}
                     {pack.items && pack.items.length > 0 && (
-                      <ul className="mb-4 space-y-1">
+                      <ul className="mb-4 space-y-1.5">
                         {pack.items.map((item: string, i: number) => (
                           <li
                             key={i}
                             className="text-xs text-[var(--color-text-muted)] flex items-center gap-2"
                           >
-                            <span className="w-1 h-1 rounded-full bg-gold/60 shrink-0" />
+                            <span className="w-1.5 h-1.5 rounded-full bg-gold/60 shrink-0" />
                             {item}
                           </li>
                         ))}

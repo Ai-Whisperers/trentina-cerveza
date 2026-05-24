@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import content from "@/content/es.json";
+import ContactForm from "./contact-form";
 
 const c = content as any;
 
@@ -7,6 +8,8 @@ export const metadata: Metadata = {
   title: c.contact.seo.title,
   description: c.contact.seo.description,
 };
+
+const site = c.site;
 
 const iconMap: Record<string, React.ReactNode> = {
   mapPin: (
@@ -31,8 +34,16 @@ const iconMap: Record<string, React.ReactNode> = {
 export default function ContactPage() {
   const ct = c.contact;
   const whatsapp = c.site.whatsapp;
+  const mapsUrl = c.site.mapsUrl;
+
+  const coordMatch = mapsUrl?.match(/q=([-\d.]+),([-\d.]+)/);
+  const embedSrc = coordMatch
+    ? `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230788.30987148183!2d-55.67348495!3d-25.4702959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f6f0c7d6b4d6b5%3A0x8f6c5b4a3d2e1f0c!2sSanta%20Rita%2C%20Paraguay!5e0!3m2!1ses!2spy!4v1`
+    : `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230788.30987148183!2d-55.67348495!3d-25.4702959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f6f0c7d6b4d6b5%3A0x8f6c5b4a3d2e1f0c!2sSanta%20Rita%2C%20Paraguay!5e0!3m2!1ses!2spy!4v1`;
+
   return (
     <>
+      {/* Hero */}
       <section className="pt-28 pb-16 bg-[var(--color-background)] relative overflow-hidden">
         <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-gold to-transparent" />
         <div className="container-page text-center">
@@ -43,29 +54,32 @@ export default function ContactPage() {
         </div>
       </section>
 
+      {/* Info Cards + Map */}
       <section className="section-padding bg-[var(--color-surface)]">
         <div className="container-page">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto mb-12">
             {ct.info.map((info: { icon: string; label: string; value: string }) => (
               <div
                 key={info.label}
-                className="p-6 rounded-xl bg-[var(--color-surface-alt)] border border-[var(--color-border)] text-center"
+                className="p-6 rounded-xl bg-[var(--color-surface-alt)] border border-[var(--color-border)] text-center hover:border-gold/40 transition-all group"
               >
-                <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-gold/10 flex items-center justify-center text-gold">
+                <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-gold/10 flex items-center justify-center text-gold group-hover:bg-gold/20 transition-colors">
                   {iconMap[info.icon]}
                 </div>
-                <h3 className="text-sm uppercase tracking-wider text-[var(--color-text-muted)] mb-1">
+                <h3 className="text-xs uppercase tracking-[0.15em] text-[var(--color-text-muted)] mb-1">
                   {info.label}
                 </h3>
-                <p className="text-[var(--color-text)] font-medium">{info.value}</p>
+                <p className="text-[var(--color-text)] font-medium text-sm">
+                  {info.value}
+                </p>
               </div>
             ))}
           </div>
 
-          {/* Map — Santa Rita, Paraguay */}
+          {/* Google Maps Embed */}
           <div className="max-w-3xl mx-auto rounded-xl overflow-hidden border border-[var(--color-border)]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230788.30987148183!2d-55.67348495!3d-25.470295899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f6f0c7d6b4d6b5%3A0x8f6c5b4a3d2e1f0c!2sSanta%20Rita%2C%20Paraguay!5e0!3m2!1ses!2spy!4v1"
+              src={embedSrc}
               width="100%"
               height="350"
               style={{ border: 0, filter: "invert(0.9) hue-rotate(180deg)" }}
@@ -78,8 +92,11 @@ export default function ContactPage() {
         </div>
       </section>
 
+      {/* Contact Form */}
+      <ContactForm whatsapp={whatsapp} />
+
       {/* CTA */}
-      <section className="section-padding bg-[var(--color-background)]">
+      <section className="section-padding bg-[var(--color-surface)]">
         <div className="container-page">
           <div className="max-w-lg mx-auto text-center">
             <h2 className="text-2xl md:text-3xl font-[var(--font-heading)] font-bold text-[var(--color-text)] mb-4">

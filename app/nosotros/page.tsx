@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   description: c.about.seo.description,
 };
 
+const site = c.site;
+
 export default function AboutPage() {
   const a = c.about;
   return (
@@ -19,7 +21,9 @@ export default function AboutPage() {
           <h1 className="text-4xl md:text-5xl font-[var(--font-heading)] font-bold text-[var(--color-text)] mb-4">
             {a.hero.title}
           </h1>
-          <p className="text-[var(--color-text-muted)]">{a.hero.subtitle}</p>
+          <p className="text-[var(--color-text-muted)] max-w-lg mx-auto">
+            {a.hero.subtitle}
+          </p>
         </div>
       </section>
 
@@ -34,8 +38,45 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Values */}
+      {/* Brewmaster Highlight */}
       <section className="section-padding bg-[var(--color-background)]">
+        <div className="container-page max-w-3xl">
+          <div className="rounded-xl bg-[var(--color-surface-alt)] border border-gold/30 overflow-hidden">
+            <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-gold to-transparent relative" />
+            <div className="p-8 md:p-10 text-center">
+              {/* Brewmaster Avatar Placeholder */}
+              <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gold/10 border-2 border-gold/30 flex items-center justify-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  className="text-gold"
+                >
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                  <circle cx="12" cy="7" r="4" />
+                </svg>
+              </div>
+
+              <h2 className="text-2xl md:text-3xl font-[var(--font-heading)] font-bold text-[var(--color-text)] mb-1">
+                {a.brewmaster.name}
+              </h2>
+              <p className="text-sm text-gold font-medium uppercase tracking-wider mb-4">
+                {a.brewmaster.title}
+              </p>
+              <p className="text-[var(--color-text-light)] leading-relaxed max-w-xl mx-auto">
+                {a.brewmaster.description}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Values */}
+      <section className="section-padding bg-[var(--color-surface)]">
         <div className="container-page">
           <h2 className="text-2xl md:text-3xl font-[var(--font-heading)] font-bold text-center text-[var(--color-text)] mb-12">
             Nuestros valores
@@ -44,13 +85,13 @@ export default function AboutPage() {
             {a.values.map((v: { title: string; description: string }) => (
               <div
                 key={v.title}
-                className="p-6 rounded-xl bg-[var(--color-surface-alt)] border border-[var(--color-border)] text-center"
+                className="p-6 rounded-xl bg-[var(--color-background)] border border-[var(--color-border)] text-center hover:border-gold/40 transition-all group"
               >
-                <div className="w-12 h-1 bg-gold mx-auto mb-4 rounded-full" />
+                <div className="w-12 h-1 bg-gold mx-auto mb-4 rounded-full group-hover:w-16 transition-all" />
                 <h3 className="text-lg font-semibold text-[var(--color-text)] mb-2">
                   {v.title}
                 </h3>
-                <p className="text-sm text-[var(--color-text-muted)]">
+                <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">
                   {v.description}
                 </p>
               </div>
