@@ -31,15 +31,10 @@ export default function Hero({
     >
       {/* Real background image */}
       {bgImage && (
-        <div className="absolute inset-0 z-0">
-          <Image
-            src={bgImage}
-            alt=""
-            fill
-            className="object-cover opacity-25"
-            priority
-          />
-        </div>
+        <div
+          className="absolute inset-0 z-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${bgImage})`, opacity: 0.25 }}
+        />
       )}
 
       {/* Animated grain texture SVG overlay */}
