@@ -272,34 +272,44 @@
     },
     "images": [
       {
-        "src": "/images/placeholder-1.jpg",
+        "src": "/images/gallery/gallery-1.jpg",
         "alt": "Cerveza Pilsen Trentina servida en jarra",
         "category": "cervezas"
       },
       {
-        "src": "/images/placeholder-2.jpg",
+        "src": "/images/gallery/gallery-5.jpg",
         "alt": "Variedad de cervezas Trentina",
         "category": "cervezas"
       },
       {
-        "src": "/images/placeholder-3.jpg",
+        "src": "/images/gallery/gallery-3.jpg",
         "alt": "Servicio de chopp Trentina en evento",
         "category": "eventos"
       },
       {
-        "src": "/images/placeholder-4.jpg",
+        "src": "/images/gallery/gallery-4.jpg",
         "alt": "Proceso de elaboracion artesanal",
         "category": "fabrica"
       },
       {
-        "src": "/images/placeholder-5.jpg",
+        "src": "/images/gallery/gallery-2.jpg",
         "alt": "Chopp tirado de cerveza Trentina",
         "category": "chopp"
       },
       {
-        "src": "/images/placeholder-6.jpg",
+        "src": "/images/gallery/gallery-6.jpg",
         "alt": "Botellas de cerveza Trentina envasadas",
         "category": "cervezas"
+      },
+      {
+        "src": "/images/gallery/gallery-7.jpg",
+        "alt": "Eventos y reuniones con Cerveza Trentina",
+        "category": "eventos"
+      },
+      {
+        "src": "/images/gallery/gallery-8.jpg",
+        "alt": "Produccion artesanal de Cerveza Trentina",
+        "category": "fabrica"
       }
     ]
   },
