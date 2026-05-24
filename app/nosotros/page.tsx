@@ -52,8 +52,8 @@ export default function AboutPage() {
       {/* Brewmaster Highlight */}
       <section className="section-padding bg-[var(--color-background)]">
         <div className="container-page max-w-3xl">
-          <div className="rounded-xl bg-[var(--color-surface-alt)] border border-gold/30 overflow-hidden">
-            <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-gold to-transparent relative" />
+          <div className="rounded-xl bg-[var(--color-surface-alt)] border border-gold/30 overflow-hidden relative">
+            <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-gold to-transparent" />
             <div className="p-8 md:p-10 text-center">
               {/* Brewmaster Photo */}
               <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-2 border-gold/40 relative">
@@ -74,6 +74,11 @@ export default function AboutPage() {
               <p className="text-[var(--color-text-light)] leading-relaxed max-w-xl mx-auto">
                 {a.brewmaster.description}
               </p>
+              {a.brewmaster.quote && (
+                <blockquote className="mt-4 italic text-[var(--color-text-muted)] text-base border-l-2 border-gold/40 pl-4 max-w-xl mx-auto text-center">
+                  "{a.brewmaster.quote}"
+                </blockquote>
+              )}
             </div>
           </div>
         </div>

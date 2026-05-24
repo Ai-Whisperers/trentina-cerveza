@@ -7,6 +7,7 @@ interface HeroProps {
   ctaSecondaryText?: string;
   ctaSecondaryHref?: string;
   variant?: "dark" | "light";
+  bgImage?: string;
 }
 
 export default function Hero({
@@ -18,6 +19,7 @@ export default function Hero({
   ctaSecondaryText,
   ctaSecondaryHref,
   variant = "dark",
+  bgImage,
 }: HeroProps) {
   const isDark = variant === "dark";
 
@@ -27,8 +29,21 @@ export default function Hero({
         isDark ? "bg-[var(--color-background)]" : "bg-[var(--color-surface)]"
       }`}
     >
+      {/* Real background image */}
+      {bgImage && (
+        <div className="absolute inset-0 z-0">
+          <Image
+            src={bgImage}
+            alt=""
+            fill
+            className="object-cover opacity-25"
+            priority
+          />
+        </div>
+      )}
+
       {/* Animated grain texture SVG overlay */}
-      <div className="absolute inset-0 z-0 opacity-[0.03] pointer-events-none mix-blend-overlay">
+      <div className="absolute inset-0 z-[1] opacity-[0.03] pointer-events-none mix-blend-overlay">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="100%"
@@ -61,7 +76,7 @@ export default function Hero({
       <div className="absolute top-1/2 left-3/4 w-64 h-64 rounded-full bg-[var(--color-accent)]/8 blur-3xl animate-pulse" style={{ animationDuration: '5s', animationDelay: '2s' }} />
 
       {/* Gradient overlay for readability */}
-      <div className="gradient-hero absolute inset-0 z-[1]" />
+      <div className="gradient-hero absolute inset-0 z-[2]" />
 
       <div className="relative z-10 container-page text-center max-w-4xl">
         {eyebrow && (

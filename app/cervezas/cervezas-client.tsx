@@ -185,9 +185,14 @@ export default function CervezasClient({
 
                         {/* Price + WhatsApp */}
                         <div className="flex items-center justify-between pt-3 border-t border-[var(--color-border)]">
-                          <span className="text-sm font-semibold text-gold">
-                            {item.price || "Consultar"}
-                          </span>
+                          <div>
+                            <span className="text-sm font-semibold text-gold">
+                              {item.price || "Consultar"}
+                            </span>
+                            <p className="text-[10px] text-[var(--color-text-muted)] mt-0.5">
+                              ABV = Alcohol por volumen · IBU = Amargor
+                            </p>
+                          </div>
                           <a
                             href={`https://wa.me/${whatsapp}?text=Hola!%20Quiero%20pedir%20${encodeURIComponent(item.name)}`}
                             target="_blank"

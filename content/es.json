@@ -98,7 +98,7 @@
         },
         {
           "value": "12.000",
-          "label": "Litros/mes",
+          "label": "Litros / mes",
           "suffix": "+"
         },
         {
@@ -199,7 +199,7 @@
           },
           {
             "id": "ales",
-            "name": "APA — American Pale Ale",
+            "name": "American Pale Ale",
             "description": "Refrescante y lupulada con presencia de malta",
             "items": [
               {
@@ -214,7 +214,7 @@
           },
           {
             "id": "ipas",
-            "name": "IPA — India Pale Ale",
+            "name": "India Pale Ale",
             "description": "Decididamente amarga, lupulada y moderadamente fuerte",
             "items": [
               {
@@ -344,7 +344,8 @@
     "brewmaster": {
       "name": "Alexsandro Giordani",
       "title": "Sommelier de Cerveza y Maestro Cervecero",
-      "description": "Con años de experiencia y formación especializada, Alexsandro lidera la elaboración de cada estilo Trentina con rigor técnico y creatividad artesanal."
+      "description": "Con años de experiencia y formación especializada, Alexsandro lidera la elaboración de cada estilo Trentina con rigor técnico y creatividad artesanal.",
+      "quote": "Cada cerveza que hacemos lleva el mismo principio:ingredientes seleccionados, proceso cuidado, y pasión en cada paso. El resultado se nota en cada sorbo."
     }
   },
   "contact": {
@@ -489,19 +490,19 @@
     "services": [
       {
         "type": "Fiestas",
-        "description": "Servicio completo de chopp para fiestas particulares y celebraciones."
+        "description": "Servicio completo para fiestas y celebraciones. Incluye equipo de chopp, instalación, vasos y hasta 4 estilos de cerveza. Desde Gs 400.000 por evento. Consumo mínimo: 40 litros."
       },
       {
         "type": "Eventos empresariales",
-        "description": "Chopp profesional para eventos corporativos y reuniones de empresa."
+        "description": "Servicio profesional para eventos corporativos. Incluye equipo completo, garzón, hasta 2 estilos de cerveza y vasos. Presupuesto a medida según cantidad de invitados."
       },
       {
         "type": "Eventos particulares",
-        "description": "Alquiler de equipos para fin de semana con instalación incluida."
+        "description": "Alquiler de equipo para reuniones de fin de semana. Instalación el viernes, retiro el lunes. Incluye 1-2 estilos. Desde Gs 250.000."
       },
       {
         "type": "Instalación en locales",
-        "description": "Equipos permanentes en bares, restaurantes, pizzerías, churrasquerías y pubs."
+        "description": "Equipos permanentes para bares, restaurantes y pubs. Contrato mensual con mantenimiento incluido. Barriles de 20L a precio preferencial. Consultar condiciones."
       }
     ],
     "cta": {

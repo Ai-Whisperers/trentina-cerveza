@@ -80,6 +80,7 @@ export default function HomePage() {
         ctaPrimaryHref={h.hero.ctaPrimaryHref}
         ctaSecondaryText={h.hero.ctaSecondaryText}
         ctaSecondaryHref={h.hero.ctaSecondaryHref}
+        bgImage="/images/beer-pour-craft.jpg"
         variant="dark"
       />
 
