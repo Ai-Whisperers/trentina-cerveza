@@ -194,7 +194,7 @@
                 "price": "Gs 130.000/pack 20x330ml",
                 "maridaje": "Carnes blancas y quesos suaves",
                 "sizes": "330ml (longneck) · 500ml · 1L",
-                "image": "/images/beers/pilsen.jpg"
+                "image": "/images/beers/pilsen-glass.jpg"
               }
             ]
           },
@@ -258,7 +258,7 @@
                 "IBU": "20",
                 "price": "Gs 350.000/pack 12x500ml",
                 "maridaje": "Chocolates medio amargo, tiramisú, postres con cacao",
-                "image": "/images/beers/dunkel.jpg"
+                "image": "/images/beers/dunkel-bottle.jpg"
               }
             ]
           }
