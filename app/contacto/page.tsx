@@ -79,10 +79,10 @@ export default function ContactPage() {
           {/* Google Maps Embed */}
           <div className="max-w-3xl mx-auto rounded-xl overflow-hidden border border-[var(--color-border)]">
             <iframe
-              src={embedSrc}
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.0!2d-55.67!3d-25.47!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDI4JzA0LjAiUyA1NcKwNDAnMDQuMCJX!5e0!3m2!1ses!2spy!4v1700000000000!5m2!1ses!2spy"
               width="100%"
               height="350"
-              style={{ border: 0 }}
+              style={{ border: 0, filter: "contrast(1.05)" }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

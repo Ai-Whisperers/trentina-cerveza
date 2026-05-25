@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { ChevronDown, Beer, Wine, Citrus, Sparkles, GlassWater } from "lucide-react";
 
 interface BeerItem {
@@ -11,6 +12,7 @@ interface BeerItem {
   price?: string;
   maridaje?: string;
   sizes?: string;
+  image?: string;
 }
 
 interface Subcategory {
@@ -142,6 +144,18 @@ export default function CervezasClient({
                       key={item.name}
                       className="rounded-xl bg-[var(--color-surface-alt)] border border-[var(--color-border)] overflow-hidden hover:border-gold/40 transition-all group"
                     >
+                      {/* Beer Image */}
+                      {item.image && (
+                        <div className="relative h-48 w-full overflow-hidden">
+                          <Image
+                            src={item.image}
+                            alt={item.name}
+                            fill
+                            className="object-cover group-hover:scale-105 transition-transform duration-500"
+                          />
+                          <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-surface-alt)] via-transparent to-transparent" />
+                        </div>
+                      )}
                       <div className="p-6">
                         {/* Name + ABV/IBU badges */}
                         <div className="flex items-start justify-between mb-3">

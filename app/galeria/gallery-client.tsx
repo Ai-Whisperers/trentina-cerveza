@@ -91,14 +91,44 @@ export default function GalleryClient({
             ✕
           </button>
           <div className="relative max-w-3xl w-full">
-            <img
-              src={selected.src}
-              alt={selected.alt}
-              className="w-full max-h-[85vh] object-contain rounded-xl"
-            />
+            <div className="relative aspect-[4/3] w-full rounded-xl overflow-hidden">
+              <Image
+                src={selected.src}
+                alt={selected.alt}
+                fill
+                className="object-contain"
+              />
+            </div>
             <p className="text-center text-sm text-[var(--color-text-muted)] mt-3">
               {selected.alt}
             </p>
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-3">
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  const idx = filtered.findIndex((img) => img.src === selected.src);
+                  if (idx > 0) setSelected(filtered[idx - 1]);
+                }}
+                className="w-10 h-10 rounded-full bg-black/60 text-white/80 hover:text-white flex items-center justify-center transition-colors"
+                aria-label="Anterior"
+              >
+                ←
+              </button>
+              <span className="text-white/70 text-sm font-mono">
+                {filtered.findIndex((img) => img.src === selected.src) + 1} / {filtered.length}
+              </span>
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  const idx = filtered.findIndex((img) => img.src === selected.src);
+                  if (idx < filtered.length - 1) setSelected(filtered[idx + 1]);
+                }}
+                className="w-10 h-10 rounded-full bg-black/60 text-white/80 hover:text-white flex items-center justify-center transition-colors"
+                aria-label="Siguiente"
+              >
+                →
+              </button>
+            </div>
           </div>
         </div>
       )}

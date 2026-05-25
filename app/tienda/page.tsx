@@ -60,11 +60,7 @@ export default function TiendaPage() {
               return (
                 <div
                   key={pack.id}
-                  className={`rounded-xl bg-[var(--color-background)] border overflow-hidden transition-all relative ${
-                    pack.highlight
-                      ? "border-gold hover:shadow-[0_0_20px_rgba(212,164,76,0.15)]"
-                      : "border-[var(--color-border)] hover:border-gold/40"
-                  }`}
+                  className={`rounded-xl bg-[var(--color-background)] border overflow-hidden transition-all duration-300 relative group ${pack.highlight ? "border-gold hover:shadow-[0_0_20px_rgba(212,164,76,0.15)] hover:-translate-y-1" : "border-[var(--color-border)] hover:border-gold/50 hover:shadow-lg hover:shadow-gold/5 hover:-translate-y-1"}`}
                 >
                   {/* Popular Badge */}
                   {pack.highlight && (
@@ -76,7 +72,7 @@ export default function TiendaPage() {
                   {/* Pack Image */}
                   <div className="aspect-[16/9] relative">
                     <Image
-                      src={pack.id === "pack-1-longneck" ? "/images/gallery/gallery-1.jpg" : pack.id === "pack-2-pilsen" ? "/images/gallery/gallery-6.jpg" : pack.id === "pack-3-apa" ? "/images/gallery/gallery-5.jpg" : pack.id === "pack-4-ipa" ? "/images/gallery/gallery-2.jpg" : "/images/gallery/gallery-4.jpg"}
+                      src={pack.id === "pack-1-longneck" ? "/images/packs/pack-longneck.jpg" : pack.id === "pack-2-pilsen" ? "/images/packs/pack-pilsen-500.jpg" : pack.id === "pack-3-apa" ? "/images/packs/pack-apa.jpg" : pack.id === "pack-4-ipa" ? "/images/packs/pack-ipa.jpg" : "/images/packs/pack-metatron.jpg"}
                       alt={pack.name}
                       fill
                       className="object-cover"

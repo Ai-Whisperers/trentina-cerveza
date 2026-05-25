@@ -102,7 +102,7 @@
           "suffix": "+"
         },
         {
-          "value": "20",
+          "value": "50",
           "label": "IBU max",
           "suffix": ""
         },
@@ -193,7 +193,8 @@
                 "IBU": "15",
                 "price": "Gs 130.000/pack 20x330ml",
                 "maridaje": "Carnes blancas y quesos suaves",
-                "sizes": "330ml (longneck) · 500ml · 1L"
+                "sizes": "330ml (longneck) · 500ml · 1L",
+                "image": "/images/beers/pilsen.jpg"
               }
             ]
           },
@@ -208,7 +209,8 @@
                 "ABV": "5%",
                 "IBU": "30",
                 "price": "Gs 400.000/pack 24x500ml",
-                "maridaje": "Comidas condimentadas y picantes"
+                "maridaje": "Comidas condimentadas y picantes",
+                "image": "/images/beers/apa.jpg"
               }
             ]
           },
@@ -223,7 +225,8 @@
                 "ABV": "6%",
                 "IBU": "50",
                 "price": "Gs 400.000/pack 24x500ml",
-                "maridaje": "Comidas condimentadas y picantes"
+                "maridaje": "Comidas condimentadas y picantes",
+                "image": "/images/beers/ipa.jpg"
               }
             ]
           },
@@ -238,7 +241,8 @@
                 "ABV": "5.1%",
                 "IBU": "20",
                 "price": "Gs 380.000/pack 24x500ml",
-                "maridaje": "Carnes asadas, tabla de quesos, picadas"
+                "maridaje": "Carnes asadas, tabla de quesos, picadas",
+                "image": "/images/beers/metatron.jpg"
               }
             ]
           },
@@ -253,7 +257,8 @@
                 "ABV": "5%",
                 "IBU": "20",
                 "price": "Gs 350.000/pack 12x500ml",
-                "maridaje": "Chocolates medio amargo, tiramisú, postres con cacao"
+                "maridaje": "Chocolates medio amargo, tiramisú, postres con cacao",
+                "image": "/images/beers/dunkel.jpg"
               }
             ]
           }

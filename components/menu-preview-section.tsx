@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface Category {
   id: string;
   name: string;
@@ -9,6 +11,14 @@ interface MenuSectionProps {
   description: string;
   categories: Category[];
 }
+
+const beerImages: Record<string, string> = {
+  lagers: "/images/beers/pilsen.jpg",
+  ipas: "/images/beers/ipa.jpg",
+  ales: "/images/beers/apa.jpg",
+  especiales: "/images/beers/metatron.jpg",
+  stouts: "/images/beers/dunkel.jpg",
+};
 
 export default function MenuPreviewSection({
   title,
@@ -30,19 +40,33 @@ export default function MenuPreviewSection({
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {categories.map((cat) => (
             <a
               key={cat.id}
               href={`/cervezas#${cat.id}`}
-              className="group p-6 rounded-xl bg-[var(--color-surface-alt)] border border-[var(--color-border)] hover:border-gold/40 transition-all"
+              className="group rounded-xl bg-[var(--color-surface-alt)] border border-[var(--color-border)] hover:border-gold/40 transition-all overflow-hidden"
             >
-              <h3 className="text-lg font-semibold text-[var(--color-text)] group-hover:text-gold transition-colors mb-1">
-                {cat.name}
-              </h3>
-              <p className="text-sm text-[var(--color-text-muted)]">
-                {cat.priceRange}
-              </p>
+              {/* Beer Image */}
+              {beerImages[cat.id] && (
+                <div className="relative h-48 w-full overflow-hidden">
+                  <Image
+                    src={beerImages[cat.id]}
+                    alt={cat.name}
+                    fill
+                    className="object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-surface-alt)] via-[var(--color-surface-alt)]/30 to-transparent" />
+                </div>
+              )}
+              <div className="p-5">
+                <h3 className="text-lg font-semibold text-[var(--color-text)] group-hover:text-gold transition-colors mb-1">
+                  {cat.name}
+                </h3>
+                <p className="text-sm text-[var(--color-text-muted)]">
+                  {cat.priceRange}
+                </p>
+              </div>
             </a>
           ))}
         </div>
