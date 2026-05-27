@@ -1,10 +1,10 @@
-import CookieConsent from "@/components/CookieConsent";
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/header";
-import Footer from "@/components/footer";
-import WhatsAppFloat from "@/components/whatsapp-float";
+import { Header } from "@ai-whisperers/ui-extras/header";
+import { Footer } from "@ai-whisperers/ui-extras/footer";
+import { WhatsAppFloat } from "@ai-whisperers/whatsapp/whatsapp-float";
+import { CookieConsent } from "@ai-whisperers/seo/cookie-consent";
 import content from "@/content/es.json";
 
 const inter = Inter({
